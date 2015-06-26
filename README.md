@@ -29,4 +29,4 @@ This program comes with a `node.js` test client. You must have [Node.js](https:/
 node udp.js sample message here
 ```
 
-You can replace <sample message here> with any message of your choice.
+You can replace &lt;sample message here&gt; with any message of your choice.
