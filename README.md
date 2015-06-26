@@ -1,7 +1,7 @@
 UDP Server
 ==========
 
-Simple udp server in c. Listens on all addresses on port 14552.
+Simple udp server in c. Listens to all addresses on port 14552.
 
 ###Compiling
 
