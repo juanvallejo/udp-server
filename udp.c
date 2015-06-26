@@ -27,7 +27,6 @@ int main(int argc, char **argv) {
 
    // set first n bytes of the area starting at first
    // address location of our servaddr to zero. ('\0')
-   // TODO: replace with memset
    memset(&servaddr, sizeof(servaddr), 0);
    // bzero(&servaddr, sizeof(servaddr));
    servaddr.sin_family = AF_INET;
