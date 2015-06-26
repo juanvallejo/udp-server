@@ -1,6 +1,8 @@
 /**
- * Sample udp client. Sends random message to test
- * udp.c
+ * Sample udp client. Sends random message to test udp.c
+ * 
+ * @author juanvallejo
+ * @date 6/25/15
  */
 
 var socket = require('dgram').createSocket('udp4');
@@ -22,7 +24,7 @@ if(process.argv[2]) {
 }
 
 var message = new Buffer(usrinput, 'utf-8');
-socket.send(message, 0, message.length, 32000, '0.0.0.0', function(err, bytes) {
+socket.send(message, 0, message.length, 14552, '0.0.0.0', function(err, bytes) {
 
 	if(err) {
 		console.log('error sending message> ' + err);

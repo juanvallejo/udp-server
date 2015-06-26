@@ -1,5 +1,8 @@
 /**
  * Sample UDP server
+ *
+ * @author juanvallejo
+ * @date 6/25/15
  */
 
 #include <sys/socket.h>
@@ -34,7 +37,7 @@ int main(int argc, char **argv) {
 
    // convert integer 32000 (representing the port to bind the socket to)
    // to socket form
-   servaddr.sin_port = htons(32000);
+   servaddr.sin_port = htons(14552);
 
    // bind the socket. Cast mem area of servaddr to type
    // of struct sockaddr memory (socket friendly stuff)
