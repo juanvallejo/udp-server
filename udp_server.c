@@ -41,7 +41,7 @@ int main(int argc, char **argv) {
    // of struct sockaddr memory (socket friendly stuff)
    bind(sockfd, (struct sockaddr *)&servaddr, sizeof(servaddr));
 
-   // loop forever listening for connections
+   // loop forever listening for messages
    while(1) {
 
       len = sizeof(cliaddr);
